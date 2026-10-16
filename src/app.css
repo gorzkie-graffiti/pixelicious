@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+	Component-scoped rules recovered verbatim from the original deployment:
+	- `.switch` / `.slider`  -> _app/immutable/assets/_page-d0ed6e48.css (Switch.svelte)
+	- `.toaster`             -> _app/immutable/assets/_layout-1ebb0720.css (svelte-french-toast)
+	The original hashed the `.svelte-xxxxxx` scope suffix onto every selector; the
+	suffixes are dropped here because these rules are global in the reconstruction.
+*/
+
+/* ---- Switch.svelte (recovered: .switch.svelte-1fs3d2i) ---- */
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 44px;
+	height: 24px;
+}
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+.switch .slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #483e66;
+	transition: 0.4s;
+	border-radius: 34px;
+}
+.switch .slider:before {
+	position: absolute;
+	content: '';
+	height: 20px;
+	width: 20px;
+	left: 2px;
+	bottom: 2px;
+	background-color: #f9f9fb;
+	transition: 0.4s;
+	border-radius: 50%;
+}
+.switch input:checked + .slider {
+	background-color: #fe5e41;
+	box-shadow: 0 0 1px #fe5e41;
+}
+.switch input:checked + .slider:before {
+	transform: translate(20px);
+}
+
+/* ---- toaster container (recovered: .toaster.svelte-jyff3d) ---- */
+.toaster {
+	--default-offset: 16px;
+	position: fixed;
+	z-index: 9999;
+	top: var(--default-offset);
+	left: var(--default-offset);
+	right: var(--default-offset);
+	bottom: var(--default-offset);
+	pointer-events: none;
+}
+
+/* Toasts are rendered by our own reducer (the original used svelte-french-toast);
+   these rules reproduce the library's default stack + animation. */
+.toaster [data-toast] {
+	pointer-events: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 8px auto;
+	max-width: 100%;
+	transition:
+		transform 0.4s,
+		opacity 0.4s;
+}
+.toaster [data-toast][data-visible='false'] {
+	opacity: 0;
+	transform: translateY(-8px);
+}
+.toaster .toast-bar {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+/* ---- announcement banner letters ----
+   The recovered page animated `.char-0 … .char-9` with anime.js:
+     translateY: [-5, 2, 0] over 400/400/400ms, rotate: [-10, 7, 0] over 600/600/600ms,
+     delay: anime.stagger(200), loop: true, easing: 'easeInOutSine'
+   The keyframes below reproduce that loop without pulling in the dependency. */
+@keyframes banner-letter {
+	0% {
+		transform: translateY(0) rotate(0deg);
+	}
+	28% {
+		transform: translateY(-5px) rotate(-10deg);
+	}
+	57% {
+		transform: translateY(2px) rotate(7deg);
+	}
+	100% {
+		transform: translateY(0) rotate(0deg);
+	}
+}
+.char-anim {
+	animation: banner-letter 1.4s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+	.char-anim {
+		animation: none;
+	}
+}
+
+/* ---- color picker swatch styling used by the palette editors ---- */
+.palette-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 0;
+}
+
+input[type='color'].swatch-input {
+	-webkit-appearance: none;
+	appearance: none;
+	border: none;
+	padding: 0;
+	background: transparent;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+	border-radius: 4px;
+	overflow: hidden;
+}
+input[type='color'].swatch-input::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type='color'].swatch-input::-webkit-color-swatch {
+	border: 1px solid #45376c;
+	border-radius: 4px;
+}
+
+/* Keep the pixel-art previews crisp, mirroring the inline `image-rendering`
+   declarations found in PreviewModal and the result preview. */
+.pixelated {
+	image-rendering: pixelated;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: crisp-edges;
+}

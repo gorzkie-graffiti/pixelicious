@@ -1,0 +1,702 @@
+[
+ {
+  "path": "favicon.png",
+  "bytes": 1152,
+  "detected": "image/png",
+  "status": "ok",
+  "sha256": "d29aa61498d489297276a1f335daac5cd5487c7ec2f2d5c4b4f39ddba7273421"
+ },
+ {
+  "path": "_app/immutable/start-0e20a21a.js",
+  "bytes": 29863,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "9bab59b956dedc8219ca3e94e8e19f95f22c07732f59d4447708435a0f2966b1"
+ },
+ {
+  "path": "_app/immutable/start-5c060f5d.js",
+  "bytes": 29863,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "b88bd562ef9c9a7b17b8225b4803c8c90056b2774110436f44d2abfa3cb61b6d"
+ },
+ {
+  "path": "_app/immutable/start-70098050.js",
+  "bytes": 26549,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "25fbe930ce76ed5361f6202e9362976e669d80452767be6a3f5ea8682017bdfa"
+ },
+ {
+  "path": "_app/immutable/start-786e1bcd.js",
+  "bytes": 29821,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "1977e6739a096e05dc619adfda45e80b93d98698c8c9527dfc64942a6e22339f"
+ },
+ {
+  "path": "_app/immutable/start-b50f2815.js",
+  "bytes": 29821,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "a3cf4f13b6788ff7ae5c7111faf7cdef04fa19d3f37e3b66d5043d71e6ab0e58"
+ },
+ {
+  "path": "_app/immutable/start-be0d7391.js",
+  "bytes": 29821,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "67d2912492556ac2d98490bbe576388347f253d4cce090f0c66398d8f80d791f"
+ },
+ {
+  "path": "_app/immutable/modules/pages/_layout.ts-a9527bd4.js",
+  "bytes": 106,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "70667e090e2e3d03352746e489f99546dff10ca883924da16d326d3621048193"
+ },
+ {
+  "path": "_app/immutable/chunks/0-323bbe79.js",
+  "bytes": 177,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "73f991c689734aa34579c3d9d3f152d6c54ccb90235ea43eebbdef454a492d08"
+ },
+ {
+  "path": "_app/immutable/chunks/0-874b105d.js",
+  "bytes": 177,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "4a9416a2a6c436a96c968a094145c22cca64e2ba87cc4cc6a6db6e26bd7c1d28"
+ },
+ {
+  "path": "_app/immutable/chunks/0-b13d1d42.js",
+  "bytes": 177,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "3680df83c012a2c1d9c1cd19e5e05ada726c4e0d2c199bfe3f11b0b8b7beb94d"
+ },
+ {
+  "path": "_app/immutable/chunks/0-baa59ee6.js",
+  "bytes": 177,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "dcbd65c1098c1816e4378c6a07295fdc40d2e635a140c181942b73672c6689f4"
+ },
+ {
+  "path": "_app/immutable/chunks/0-df8d08f0.js",
+  "bytes": 97,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "da212a19fd97e914d0f0399a02550e6756e26d9e4de5ce45d92ac87759c4b694"
+ },
+ {
+  "path": "_app/immutable/chunks/1-1996e470.js",
+  "bytes": 89,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "8ee76cc795cfe6e7ef2b0fb29d577311943fb952b07c82330c17dd10f2e7b55d"
+ },
+ {
+  "path": "_app/immutable/chunks/1-d5b969c8.js",
+  "bytes": 89,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "249d3e99cbd7783d4d8eeb7de58e7f800c20dd0f586bd0351dc8fb0072df6843"
+ },
+ {
+  "path": "_app/immutable/chunks/10-ff758415.js",
+  "bytes": 114,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "61064121300edd0a60d1e617fa1fb7eb342fab716bf6fde57767b375125e178c"
+ },
+ {
+  "path": "_app/immutable/chunks/2-42161baf.js",
+  "bytes": 95,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "bec85448af59e47084c9050e4b797f73279d76adef0c635f68ba5e957a848b35"
+ },
+ {
+  "path": "_app/immutable/chunks/2-83c130c5.js",
+  "bytes": 95,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "962203c30d879ead0c7e90f4fc841d66bf906db54054cb36952a3a1483bd6388"
+ },
+ {
+  "path": "_app/immutable/chunks/2-afe79ac0.js",
+  "bytes": 95,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "1edbffd1dc3fcc6429126776cf7ae85a181a66f6a2440c0772c0e490c9bb1f51"
+ },
+ {
+  "path": "_app/immutable/chunks/2-cfa5636e.js",
+  "bytes": 95,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "56d9e647f9a8af1cfb1b056acafd3fc57b7bf23517028da3ee292e7d9b9f8837"
+ },
+ {
+  "path": "_app/immutable/chunks/2-d0b173e3.js",
+  "bytes": 95,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "7d627104fd2e9de666f1ab8d5aa36fb76a5c6dede22dec445b12ee23bc863997"
+ },
+ {
+  "path": "_app/immutable/chunks/3-7021cad4.js",
+  "bytes": 117,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "f307f69acb5fc9e89ef3d5cc7eb87bf72c5bb72116d3e6cab33dbdb391091aa6"
+ },
+ {
+  "path": "_app/immutable/chunks/4-7201e2e7.js",
+  "bytes": 116,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "3430bfff434ca59a549276dbe6b238be0184ad51167c80d6519ccd1f56e6bc5a"
+ },
+ {
+  "path": "_app/immutable/chunks/5-f54f384e.js",
+  "bytes": 108,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "e8b42dd8f4491da4a5d8bb7d113b86f37d622e6615eca34c9d35312e186e98f7"
+ },
+ {
+  "path": "_app/immutable/chunks/6-2fd58970.js",
+  "bytes": 116,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "308d4bd5f4472ec376cbc673966c905d070fbeaaec5f489a4a983ec3a13498a2"
+ },
+ {
+  "path": "_app/immutable/chunks/7-e15f2cb5.js",
+  "bytes": 111,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "0d0ff435e2ca62f2bacc9ca2f486df01b15773fa1c0f965886c0393c1cf9d855"
+ },
+ {
+  "path": "_app/immutable/chunks/8-7199d431.js",
+  "bytes": 112,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "348a28bd5484cb1585dcff05997720c08654672cce34df3bbe27f8bc41a3b19e"
+ },
+ {
+  "path": "_app/immutable/chunks/9-fce8b28d.js",
+  "bytes": 114,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "f8c40586ab80162d05db16281e92234ee06d7e3f302ef41f4f406e39f48f538b"
+ },
+ {
+  "path": "_app/immutable/chunks/Login-2c7bb3ae.js",
+  "bytes": 7120,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "fce7f31af50d16d235f4233ce5071e05591603de0db9bcec519a3b37da333795"
+ },
+ {
+  "path": "_app/immutable/chunks/_layout-eca538f1.js",
+  "bytes": 1260,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "26fa2bf2cbde5a615d7268bb41a806adca8c691e2ad9a0e5e8efbd0ca69c9084"
+ },
+ {
+  "path": "_app/immutable/chunks/bgRemovalExample1-37f76e22.js",
+  "bytes": 100,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "ded124da75deac2461731810f79f298e39c5629549d849c0de01eb57e7dfb1a6"
+ },
+ {
+  "path": "_app/immutable/chunks/bgRemovalExample2-7c4dfee8.js",
+  "bytes": 100,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "8f8cdefa556b156f6f31c95e1a3ef98de96edaae43d1e542bd6651ddaa9dc6cf"
+ },
+ {
+  "path": "_app/immutable/chunks/browser-ponyfill-82cba527.js",
+  "bytes": 9503,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "2f7d5b1e51f4ede07894c4b71b2c959f5f49093ee94186850d883c037dbed4c0"
+ },
+ {
+  "path": "_app/immutable/chunks/checkIcon-aa2334e1.js",
+  "bytes": 150,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "0a0177a4a10dfd41ea6cba45e4b4038dd28a5d756b309c52d0de0f095b17abb8"
+ },
+ {
+  "path": "_app/immutable/chunks/environment-9aa685ef.js",
+  "bytes": 27,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "6b4c8de700c75d5f24711931408dd60f58e26a14c303fa25f851d0e485014cf4"
+ },
+ {
+  "path": "_app/immutable/chunks/googleLogo-edc02ba2.js",
+  "bytes": 93,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "b418c7d26fb78ef2a2e0c1a46a5290867793ca21d46c543fb856b21c1ddebd68"
+ },
+ {
+  "path": "_app/immutable/chunks/index-5e145417.js",
+  "bytes": 12759,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "e621e8862c8401ee269087171d5b03cad39739ce282fcbd7ee20a95c4140ef0a"
+ },
+ {
+  "path": "_app/immutable/chunks/index-def40737.js",
+  "bytes": 17778,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "a60ad0f0f23d2c82b59bc836d6ee639d70382ab539c7aed5251a52d5918ba9a4"
+ },
+ {
+  "path": "_app/immutable/chunks/index-fd111bee.js",
+  "bytes": 125177,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "2296c9dd2320d1403d281744a9553626822522f443e42dab72e10d54234636f6"
+ },
+ {
+  "path": "_app/immutable/chunks/loadingIconWhite-601de10e.js",
+  "bytes": 99,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "3e95a6f655e0c8c8e02893e6d73441bd3c755cb4911c237d3479b34be9d9e0d6"
+ },
+ {
+  "path": "_app/immutable/chunks/navigation-46f208ea.js",
+  "bytes": 229,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "62cb894000988fe308f0ef8318b1dfb2ff27f1e720ed9876991b6c246a37c412"
+ },
+ {
+  "path": "_app/immutable/chunks/scenarioLogo-928ddd99.js",
+  "bytes": 95,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "3286811386f8105ea974049d8a3f9f877b9969a61658cd83c20f24cc27e2ae95"
+ },
+ {
+  "path": "_app/immutable/chunks/singletons-3d25e50c.js",
+  "bytes": 2192,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "873354603603f837a8e41398e6eaa2dd6819f3e5e71c63273df82590a869bd63"
+ },
+ {
+  "path": "_app/immutable/chunks/singletons-d38e8de3.js",
+  "bytes": 4340,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "208a5a07cd90d17b2090a12a3830fbc6cdaaf5afc2aa97b9044af053b835bc43"
+ },
+ {
+  "path": "_app/immutable/chunks/stores-5af73cf6.js",
+  "bytes": 363,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "3e75136adca240d64b996608f5014873d4cfd0368d1c671f98ceb5c92e1d807d"
+ },
+ {
+  "path": "_app/immutable/chunks/supabase-1dccee07.js",
+  "bytes": 1169,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "2d617482cdd7d51ee3d30e8f0b9174184633aa12a13fc46e6c6899eb435175e5"
+ },
+ {
+  "path": "_app/immutable/chunks/toast-94d0cacf.js",
+  "bytes": 2556,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "a77446b6588905c7da75bfc57bfabe0bd90c3dc1f440ccc74b473aa3c87c82d3"
+ },
+ {
+  "path": "_app/immutable/chunks/toast-e4c2af5c.js",
+  "bytes": 4117,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "a71c5cbcfca38eadc59a7eb156a42a969dc1ad4e190433a11dc35dd2e3ca6457"
+ },
+ {
+  "path": "_app/immutable/components/error.svelte-cba8c38b.js",
+  "bytes": 798,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "358d0f9016df464f1e170f36fb0f17e2e4f4f208118a934c5fe887fabfe8e31e"
+ },
+ {
+  "path": "_app/immutable/components/error.svelte-ffe385ce.js",
+  "bytes": 979,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "f00dd9784292cba0248e2cf1029a33be9216bfb7b16a297e43498fd1500fea61"
+ },
+ {
+  "path": "_app/immutable/components/pages/_layout.svelte-103cb66d.js",
+  "bytes": 21367,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "03fc9ac869b89ada5386379db522d89ee2e9fe37cd8ca93bf2b871276e5e1eff"
+ },
+ {
+  "path": "_app/immutable/components/pages/_layout.svelte-3a15c019.js",
+  "bytes": 38828,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "51cdfab26402e135b6760622f1f6f0d4341ee4c62d7ab7b3b9ffe18149b8cfe0"
+ },
+ {
+  "path": "_app/immutable/components/pages/_layout.svelte-45bbc4f2.js",
+  "bytes": 23765,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "ae46c338deeb78983c63d0370cb2b81f4660caa9fc230ba0285d07d5ec7a3416"
+ },
+ {
+  "path": "_app/immutable/components/pages/_layout.svelte-4b3dd85f.js",
+  "bytes": 26193,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "b1e6478d1bf43d5ed6addc404ea9d57ba3c602fe16a80a77b1739edb70efa11e"
+ },
+ {
+  "path": "_app/immutable/components/pages/_layout.svelte-67a720ea.js",
+  "bytes": 26196,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "ed1740eafba2e43722bb6690de270c3bcf793a90fca447932eeb944e2e43b26a"
+ },
+ {
+  "path": "_app/immutable/components/pages/_page.svelte-26e23acf.js",
+  "bytes": 610125,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "5cd481ab2e9749371698b2dc10b5d14b32e885482be2080989f26c5a10407e5c"
+ },
+ {
+  "path": "_app/immutable/components/pages/_page.svelte-a34347f8.js",
+  "bytes": 578749,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "7c7effe535f3c81bc8f3f3b4fefec70df18af992f2d3567d11c97982836becf1"
+ },
+ {
+  "path": "_app/immutable/components/pages/_page.svelte-ce90db2b.js",
+  "bytes": 610129,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "de845f16a57851d450a950372b6904a80fd48269bfe90a81bca6fed39120ff95"
+ },
+ {
+  "path": "_app/immutable/components/pages/_page.svelte-e11325da.js",
+  "bytes": 917741,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "5241877828fe08d42f2b73ffbd259d730ca922e1d97d98c83e73cc1fe3659517"
+ },
+ {
+  "path": "_app/immutable/components/pages/_page.svelte-f0e9a6ad.js",
+  "bytes": 610129,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "9e781d0f3cd71af0139ff16db4d16e4a600ea074f43a871aab05ba7adebb01c7"
+ },
+ {
+  "path": "_app/immutable/components/pages/subscription/success/_page.svelte-41d86a3f.js",
+  "bytes": 517,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "f3c641e5c5c3defa8cb0ecbdaca870ecc75c4c500ac5163dfe063de33d9f11a6"
+ },
+ {
+  "path": "_app/immutable/components/pages/subscription/canceled/_page.svelte-6aa3a123.js",
+  "bytes": 519,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "ace43f755beb57c4add9161c8e6dc5fe66c71df33efb47d99a21883e5fac25fa"
+ },
+ {
+  "path": "_app/immutable/components/pages/user/confirmSignup/_page.svelte-b83ac059.js",
+  "bytes": 2497,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "5e3a442442a109f25f42617a7386b361048e9c6d3f47b0b179c926a63246815d"
+ },
+ {
+  "path": "_app/immutable/components/pages/user/auth/signup/_page.svelte-4e63b0ac.js",
+  "bytes": 7473,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "3997383f51f0bd4155261523c19aa865033b6ece8cf3939dbaf28543aa77019b"
+ },
+ {
+  "path": "_app/immutable/components/pages/user/auth/login/_page.svelte-10cfc75b.js",
+  "bytes": 676,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "01c957ef74a3e8cd509e0370ef4fa8a84a15edf3ade0cf725b77669bc2bc83f6"
+ },
+ {
+  "path": "_app/immutable/components/pages/user/accountRecovery/_page.svelte-4e3f4cb0.js",
+  "bytes": 4387,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "0635a76b72d7fe9c3573558c8fe433b83251c3f381a7d9b86fb23a09069edb23"
+ },
+ {
+  "path": "_app/immutable/components/pages/user/resetPassword/_page.svelte-9cda08c1.js",
+  "bytes": 5002,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "8af35e824df34fa558ca954749da1dccf5a48c0ed6838f269902f59eebaf8570"
+ },
+ {
+  "path": "_app/immutable/components/pages/user/account/_page.svelte-347aa275.js",
+  "bytes": 37390,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "ff1309b006883b88c97e1982dcb74d46060c5f7916ab6a336c7aefe81fa223e8"
+ },
+ {
+  "path": "_app/immutable/assets/_layout-1ebb0720.css",
+  "bytes": 32181,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "2c4d0302672158dbd2fdd5225257c4384477b309d478eb4a5096e058f88cdc41"
+ },
+ {
+  "path": "_app/immutable/assets/_layout-24135d12.css",
+  "bytes": 23004,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "24135d12d747d59f16aa8f21756e0c6be903c6e64f009b44b194dc7be48fc63a"
+ },
+ {
+  "path": "_app/immutable/assets/_layout-4df55af4.css",
+  "bytes": 21955,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "4df55af4b16c8b3fb6a2ac87bfc7c8781dfcd47526808be522ca560b77b252f6"
+ },
+ {
+  "path": "_app/immutable/assets/_layout-5556461e.css",
+  "bytes": 27000,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "5556461e67585230fbd81cf2306b3372694ba939199a7b0e3002872cab2ae670"
+ },
+ {
+  "path": "_app/immutable/assets/_layout-b83e39db.css",
+  "bytes": 27272,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "b83e39dba8566a1fabb224b09830fbbb18ef019ca180d1adc486f79238fc33b6"
+ },
+ {
+  "path": "_app/immutable/assets/_layout-c66e4b86.css",
+  "bytes": 26910,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "c66e4b86dcedce51711a086daf3e150a9bbc9298154fcc48c3d05a68f008ccdb"
+ },
+ {
+  "path": "_app/immutable/assets/_page-d0ed6e48.css",
+  "bytes": 8905,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "55d13de8887e103b5f327cd8669254c87e38e3a625579f9107ae5a76e22771c0"
+ },
+ {
+  "path": "_app/immutable/assets/_page-f67a8bb0.css",
+  "bytes": 6801,
+  "detected": "text/javascript",
+  "status": "ok",
+  "sha256": "f67a8bb04a61010812cfdc7e046c689e66668255df5c1debac15c58cf24af3ad"
+ },
+ {
+  "path": "_app/immutable/assets/addImageIcon-e1dac575.svg",
+  "bytes": 3385,
+  "detected": "image/svg+xml",
+  "status": "ok",
+  "sha256": "e1dac575d38389697e8bd863efaa5aa7ed242f21dcf5d1808fc1d33fe5c8bdb0"
+ },
+ {
+  "path": "_app/immutable/assets/base-4718032d.png",
+  "bytes": 1118695,
+  "detected": "image/png",
+  "status": "ok",
+  "sha256": "4718032da3dbe138b187e2aed0d035fa6b136135339bc5487f4465dc8ed1bb93"
+ },
+ {
+  "path": "_app/immutable/assets/base-f8a74a87.png",
+  "bytes": 333969,
+  "detected": "image/png",
+  "status": "ok",
+  "sha256": "f8a74a879d93296a748fac273f532911e2beb633dcee8296f3f6070517a8aa7c"
+ },
+ {
+  "path": "_app/immutable/assets/bgRemovalExample1-b9663ea3.png",
+  "bytes": 447105,
+  "detected": "image/png",
+  "status": "ok",
+  "sha256": "b9663ea3ba82ea85cbae7e99689579f7a9af9df6a4f0e23ca8c5abe455fc175e"
+ },
+ {
+  "path": "_app/immutable/assets/bgRemovalExample2-478a9fc9.png",
+  "bytes": 327627,
+  "detected": "image/png",
+  "status": "ok",
+  "sha256": "478a9fc9057e047fc65be288e59afb372e9bccc0f00300213c7e57fc1c6221ed"
+ },
+ {
+  "path": "_app/immutable/assets/bgremovedSample-a34c9af1.png",
+  "bytes": 11166,
+  "detected": "image/png",
+  "status": "ok",
+  "sha256": "a34c9af1a11cf1e7bc46f8278cff6a8f7ef1a9d0e5f739b5d3b815fccbe50fb5"
+ },
+ {
+  "path": "_app/immutable/assets/checkIcon-79b1ffb7.svg",
+  "bytes": 969,
+  "detected": "image/svg+xml",
+  "status": "ok",
+  "sha256": "79b1ffb7a031545d80bfd1d152950ccec999c310fdf8476648b1eb6b66266580"
+ },
+ {
+  "path": "_app/immutable/assets/chevronIcon-281e076b.svg",
+  "bytes": 2391,
+  "detected": "image/svg+xml",
+  "status": "ok",
+  "sha256": "281e076b7e3ab98abb7cd6661b58ffdc7fa153d78e0bad42f1fe28d01a1af6d1"
+ },
+ {
+  "path": "_app/immutable/assets/closeIcon-0234a9bd.svg",
+  "bytes": 974,
+  "detected": "image/svg+xml",
+  "status": "ok",
+  "sha256": "0234a9bd2671842e7d151a4f02279d6abf64bc367a154b95188473265082420b"
+ },
+ {
+  "path": "_app/immutable/assets/discordIcon-02da1f7c.svg",
+  "bytes": 2946,
+  "detected": "image/svg+xml",
+  "status": "ok",
+  "sha256": "02da1f7c5d72ad831c5fea9fb88aa91a2ba56fd327fa8fe9c2a66e65e186e50d"
+ },
+ {
+  "path": "_app/immutable/assets/editIcon-f5978e3b.svg",
+  "bytes": 1002,
+  "detected": "image/svg+xml",
+  "status": "ok",
+  "sha256": "f5978e3b4ff595713cbd2fdac66ec8bc7c9ce5d4603d4bc7b144ebb3f398c787"
+ },
+ {
+  "path": "_app/immutable/assets/eyeIcon-3322ed24.svg",
+  "bytes": 1161,
+  "detected": "image/svg+xml",
+  "status": "ok",
+  "sha256": "3322ed2489d7c95495b2e99ce18a76464ebccea55d34680ef3038cacb2e3f029"
+ },
+ {
+  "path": "_app/immutable/assets/googleLogo-3fcd6c65.svg",
+  "bytes": 1385,
+  "detected": "image/svg+xml",
+  "status": "ok",
+  "sha256": "3fcd6c65037021d93506f1d7562414c9c68be8a848e2cff02f81f3fc2dfc41e7"
+ },
+ {
+  "path": "_app/immutable/assets/loadingIcon-094d3e8e.svg",
+  "bytes": 1072,
+  "detected": "image/svg+xml",
+  "status": "ok",
+  "sha256": "094d3e8e61d056c6da17b0dd43b5082abf24459a4ec193f35abd085a695d3f41"
+ },
+ {
+  "path": "_app/immutable/assets/loadingIconWhite-ef09b8f6.svg",
+  "bytes": 1072,
+  "detected": "image/svg+xml",
+  "status": "ok",
+  "sha256": "ef09b8f667e8eea87d71a52a724a8991bbb6c00f29a60c7db359ac87142edd4d"
+ },
+ {
+  "path": "_app/immutable/assets/paletteIcon-54f0b189.svg",
+  "bytes": 1132,
+  "detected": "image/svg+xml",
+  "status": "ok",
+  "sha256": "54f0b1898ed82c797937cb4366bd18c7ff7b6290940e2b18c904469a46acb4ce"
+ },
+ {
+  "path": "_app/immutable/assets/pixelArt-d915ed6a.png",
+  "bytes": 105768,
+  "detected": "image/png",
+  "status": "ok",
+  "sha256": "d915ed6ad248c3470a427b83d8d539f240c8082ec50329657368b32807a75580"
+ },
+ {
+  "path": "_app/immutable/assets/pixelart-a3439003.png",
+  "bytes": 11611,
+  "detected": "image/png",
+  "status": "ok",
+  "sha256": "a34390030cdf0ef87d74c4e883cf2d30a19a3215982e59caf35051020e79942b"
+ },
+ {
+  "path": "_app/immutable/assets/plusIconWhite-2b7dac96.svg",
+  "bytes": 707,
+  "detected": "image/svg+xml",
+  "status": "ok",
+  "sha256": "2b7dac961f3777cda14e8fbf18607daad10eaeb24c9834fec44988c16010577d"
+ },
+ {
+  "path": "_app/immutable/assets/rightArrow-2ccf02b7.svg",
+  "bytes": 316,
+  "detected": "image/svg+xml",
+  "status": "ok",
+  "sha256": "2ccf02b71a7621cf0333f1de4de20c61f744497df41c1871c1220f863e87a34b"
+ },
+ {
+  "path": "_app/immutable/assets/scenarioLogo-c32c65e5.png",
+  "bytes": 11881,
+  "detected": "image/png",
+  "status": "ok",
+  "sha256": "c32c65e5f9ee186b5b50520600528c65a5343e464e7d12e2d0d31eaa63b3d2bc"
+ },
+ {
+  "path": "_app/immutable/assets/svelteLogo-dc8a06dc.svg",
+  "bytes": 1718,
+  "detected": "image/svg+xml",
+  "status": "ok",
+  "sha256": "dc8a06dc6d4ecbedf4177e3afcff4a6255d7b4fac8c95985bb449b132f5e4b55"
+ },
+ {
+  "path": "_app/immutable/assets/trashIcon-4cb27fbb.svg",
+  "bytes": 913,
+  "detected": "image/svg+xml",
+  "status": "ok",
+  "sha256": "4cb27fbbd50731bf37c913ff4a1e93b1ae67061bff337746cc9613243e1ab03e"
+ },
+ {
+  "path": "_app/immutable/assets/trashIconWhite-e5a01b6a.svg",
+  "bytes": 913,
+  "detected": "image/svg+xml",
+  "status": "ok",
+  "sha256": "e5a01b6acb1a8e927c6432c98d6b1558d8de69e43be782ee556a303fb89ac82c"
+ }
+]

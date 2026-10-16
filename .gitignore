@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# build output
+build/
+.svelte-kit/
+
+# editor / OS
+.DS_Store
+*.log
+
+# runtime artifacts of the local dev server
+*.pid
+
+# local environment (never commit real values)
+.env
+.env.*
+!.env.example
