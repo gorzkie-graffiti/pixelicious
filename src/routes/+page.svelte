@@ -6,9 +6,9 @@
 	 * but with an original visual design and clean codebase.
 	 */
 	import { onMount } from 'svelte';
-import { colorPalette, currentColorPick } from '$lib/stores.js';
+	import { colorPalette, currentColorPick, defaultPalettes } from '$lib/stores.js';
 	import { toast } from '$lib/toast.js';
-import { DEFAULT_PALETTE_INDEX, DEFAULT_PALETTES } from '$lib/palettes.js';
+	import { DEFAULT_PALETTE_INDEX, DEFAULT_PALETTES } from '$lib/palettes.js';
 	import {
 		downloadDataURL,
 		prepareImageData,
@@ -19,7 +19,7 @@ import { DEFAULT_PALETTE_INDEX, DEFAULT_PALETTES } from '$lib/palettes.js';
 	} from '$lib/image.js';
 	import { computeImageRemote, reduceForDownload } from '$lib/processor.js';
 	import { defaultGridSize, pixelSizeMultiplier } from '$lib/pixelate.js';
-	import { BTN_ORANGE } from '$lib/classes.js';
+	import { BTN_ORANGE, DRAWER_CLOSED, DRAWER_OPEN } from '$lib/classes.js';
 	import { loadingIconWhite, eyeIcon } from '$lib/assets.js';
 	import UploadZone from '$lib/components/UploadZone.svelte';
 	import ResultPreview from '$lib/components/ResultPreview.svelte';
@@ -29,6 +29,8 @@ import { DEFAULT_PALETTE_INDEX, DEFAULT_PALETTES } from '$lib/palettes.js';
 	import PreviewModal from '$lib/components/PreviewModal.svelte';
 	import BgRemovalModal from '$lib/components/BgRemovalModal.svelte';
 	import PricingModal from '$lib/components/PricingModal.svelte';
+	import ColorEditingModal from '$lib/components/ColorEditingModal.svelte';
+	import CommunityPalettesModal from '$lib/components/CommunityPalettesModal.svelte';
 
 	// ── state ────────────────────────────────────────────────────────────────────
 	let uploadedImage = null;
@@ -121,7 +123,7 @@ import { DEFAULT_PALETTE_INDEX, DEFAULT_PALETTES } from '$lib/palettes.js';
 		loading = true;
 		try {
 			const prepared = await prepareImageData(uploadedImage);
-			const palette = usePalette ? colorPalette : undefined;
+			const palette = usePalette ? $colorPalette : undefined;
 			const { result } = await computeImageRemote({
 				image: prepared.canvas.toDataURL('image/png'),
 				gridSize,
@@ -269,3 +271,40 @@ import { DEFAULT_PALETTE_INDEX, DEFAULT_PALETTES } from '$lib/palettes.js';
 		</div>
 	</div>
 </main>
+
+<!-- drawer: color editing -->
+<div id="modal" class={colorEditingModal ? DRAWER_OPEN : DRAWER_CLOSED}>
+	{#if colorEditingModal}
+		<ColorEditingModal on:closeModal={() => (colorEditingModal = false)} />
+	{/if}
+</div>
+
+<!-- drawer: community palettes -->
+<div id="modal" class={communityPalettesModal ? DRAWER_OPEN : DRAWER_CLOSED}>
+	{#if communityPalettesModal}
+		<CommunityPalettesModal
+			palettes={$defaultPalettes}
+			on:closeModal={() => (communityPalettesModal = false)}
+			on:checkPalette={() => (usePalette = true)}
+		/>
+	{/if}
+</div>
+
+<!-- full-screen modals -->
+{#if previewModal && resultImage}
+	<Modal onclose={() => (previewModal = false)}>
+		<PreviewModal {resultImage} {gridSize} on:close={() => (previewModal = false)} />
+	</Modal>
+{/if}
+
+{#if bgRemovalModal}
+	<Modal onclose={() => (bgRemovalModal = false)}>
+		<BgRemovalModal on:close={() => (bgRemovalModal = false)} />
+	</Modal>
+{/if}
+
+{#if pricingModal}
+	<Modal onclose={() => (pricingModal = false)}>
+		<PricingModal on:unavailable={onPricingUnavailable} />
+	</Modal>
+{/if}
